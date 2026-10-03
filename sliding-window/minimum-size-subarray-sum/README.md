@@ -1,8 +1,8 @@
 # Minimum Size Subarray Sum
 **link:** https://leetcode.com/problems/minimum-size-subarray-sum/description/  
 **platform:** Leetcode    
+**question no.:** 209  
 **difficulty:** Medium    
-
 
 ## Approach
 Sliding Window
