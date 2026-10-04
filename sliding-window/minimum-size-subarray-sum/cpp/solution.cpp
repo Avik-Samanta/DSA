@@ -22,9 +22,15 @@ int main() {
   int target = 7;
   int expectedRes = 2;
   int res = minSubArrayLen(nums, target);
-  if(res == expectedRes) {
-    cout << "right ans" << endl << res << endl;
-  } else {
-    cout << "wrong output" << endl;
+  try {
+    if(res == expectedRes) {
+      cout << res << endl;
+      cout << "output matched..." << "\n" << "right ans !!!" << endl;
+    } else {
+      throw("output does not match...wrong ans");
+    }
+  }
+  catch (const char* e) {
+    cout << e << endl;
   }
 }
